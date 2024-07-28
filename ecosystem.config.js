@@ -3,13 +3,13 @@ module.exports = {
     {
       name: "backend",
       script: "./server.js",
-      cwd: "C:\\Users\\Fuad\\Desktop\\hesret\\backend",
+      cwd: "/root/hasratinho/backend",
     },
     {
-      cwd: "C:\\Users\\Fuad\\Desktop\\hesret\\frontend",
+      cwd: "/root/hasratinho/frontend",
       name: "frontend",
-      script: "./frontend/node_modules/next/dist/bin/next",
-      args: "start",
+      script: "./node_modules/next/dist/bin/next",
+      args: "start -p 80",
     },
   ],
 };
